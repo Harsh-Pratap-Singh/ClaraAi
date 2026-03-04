@@ -1,0 +1,47 @@
+[Demo Call Transcript]
+Date: 2024-11-25
+Participants: James (Clara Sales), Robert Davis (ProCare Property Maintenance)
+
+James: Hi Robert, welcome. Tell us about ProCare.
+
+Robert: Hey James. ProCare Property Maintenance — we're a multi-trade property maintenance company in Chicago, Illinois. We manage maintenance for about 40 commercial properties and a portfolio of about 200 residential units. We do everything from HVAC to plumbing to general handyman work, janitorial, and landscaping coordination.
+
+James: That's a large operation. What's the pain point that brought you to Clara?
+
+Robert: Scale. We get hundreds of calls a day from tenants, property managers, building owners. Our call center has 3 people and they're overwhelmed. After hours, we miss critical maintenance emergencies — like burst pipes in winter or elevator malfunctions. We need AI to handle the first touch, triage, and route calls properly.
+
+James: Makes sense. Business hours?
+
+Robert: Monday through Friday, 6:00 AM to 8:00 PM Central Time. Saturday 8 AM to 5 PM. Sunday we're closed but emergency line is active.
+
+James: Address?
+
+Robert: 500 West Monroe Street, Floor 3, Chicago, IL 60661.
+
+James: Services?
+
+Robert: HVAC repair and maintenance, plumbing repair, electrical repair, general maintenance and handyman services, janitorial coordination, landscaping coordination (we sub that out but manage the calls), elevator maintenance coordination, lock and key services, pest control coordination, and snow removal coordination in winter.
+
+James: That's comprehensive. What's an emergency for you?
+
+Robert: No heat when it's below 35 degrees outside. Burst or frozen pipes. Active flooding or water damage. Elevator stuck with passengers. Gas leak. Electrical hazard — sparking, exposed wires. Building security breach — broken exterior doors or locks. Sewage backup. And no hot water in residential units during winter.
+
+James: Emergency routing?
+
+Robert: It depends on the property type. For commercial properties, try our commercial dispatch manager, Tony Ricci, at 312-555-0167. For residential, try our residential manager, Anita Patel, at 312-555-0189. If the appropriate manager doesn't answer in 20 seconds, escalate to me — Robert Davis, 312-555-0145. If nobody answers, take full details — property address, unit number if applicable, caller name, phone, nature of emergency, and whether there are safety concerns. Text all three of us. Guarantee 15-minute callback.
+
+James: Non-emergency routing during hours?
+
+Robert: Transfer to our main dispatch at 312-555-0100. If busy, take a message. Categorize as HVAC, plumbing, electrical, general maintenance, or other. We prioritize based on category.
+
+James: Integration constraints?
+
+Robert: We use Building Engines for property management. Don't create any work orders in the system. Also, any call about rent, lease, or property management complaints should NOT be handled by your agent — transfer those directly to our property management office at 312-555-0200. We don't want AI handling tenant disputes.
+
+James: Good distinction. Anything else?
+
+Robert: For snow removal requests, note that we only handle properties in our portfolio. If it's not one of our managed properties, politely decline. Also, our landscaping service is seasonal — April through October. The agent should know that.
+
+James: Great detail, Robert. We'll get your preliminary agent drafted up. Talk to you at onboarding!
+
+Robert: Sounds good. Thanks, James.

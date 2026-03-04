@@ -1,0 +1,43 @@
+[Onboarding Call Transcript]
+Date: 2024-12-05
+Participants: Rachel (Clara Onboarding), Tom Chen (Guardian Fire Protection)
+
+Rachel: Hi Tom, let's go through your onboarding updates. How does the preliminary agent look?
+
+Tom: Pretty solid, Rachel. I have some refinements though.
+
+Rachel: Let's hear them.
+
+Tom: First, we're changing our business hours slightly. We're starting at 7:00 AM instead of 7:30 AM. The guys were already showing up at 7 anyway, so we're making it official. End time stays 4:30 PM.
+
+Rachel: Updated — 7:00 AM to 4:30 PM.
+
+Tom: Next, we opened a second location. Our new branch is at 5500 Westheimer Road, Suite 110, Houston, TX 77056. When someone calls, the agent should ask which location is closer to them or which part of Houston they're in, and route accordingly. Navigation Boulevard handles the east side, Westheimer handles the west side.
+
+Rachel: Great. We'll add location-based routing.
+
+Tom: Services update — we're now also offering fire safety consulting and fire escape planning for commercial buildings. Add those two.
+
+Rachel: Added.
+
+Tom: Emergency definitions — add "fire suppression system leak" as an emergency. We had a case where a sprinkler system was slowly leaking and the building manager didn't think it was urgent. It caused $50,000 in damage overnight. Any water coming from a suppression system, even a slow drip, is an emergency.
+
+Rachel: Understood. Added.
+
+Tom: Routing change — Derek Johnson is still primary. But Maria Gonzalez is now managing the new west location, so she should only be contacted for west-side emergencies. For east-side emergencies, we have a new senior tech, Ryan Mitchell, at 713-555-0204. So the routing is: 1) Derek, 2) Tom, 3) Ryan for east side or Maria for west side.
+
+Rachel: Got it — location-based fallback routing.
+
+Tom: Integration constraint update: we still use ServiceTrade and the rule about not creating sprinkler jobs remains absolute. But add this: for inspection scheduling requests, the agent should tell the caller that our next available inspection slot is typically 2 weeks out, not 48 hours. We're backed up. 48 hours was aspirational.
+
+Rachel: Updated inspection lead time to 2 weeks.
+
+Tom: Last thing — we want a Spanish language option. About 30% of our commercial property managers prefer Spanish. Can the agent detect if someone is speaking Spanish and switch?
+
+Rachel: We can add bilingual support. The agent will greet in English and offer Spanish as an option.
+
+Tom: Perfect. That's everything.
+
+Rachel: Great updates, Tom. V2 coming your way soon.
+
+Tom: Thanks, Rachel!

@@ -1,0 +1,49 @@
+[Onboarding Call Transcript]
+Date: 2024-12-06
+Participants: Sarah (Clara Onboarding), Karen White (Reliable Electric Services)
+
+Sarah: Hi Karen! Let's review your agent draft and make updates.
+
+Karen: Hi Sarah. The draft looks great. I showed it to my husband Bill and we have a few changes.
+
+Sarah: Go ahead.
+
+Karen: First, business hours change. We've decided to close on Saturdays unless it's a scheduled appointment. So remove the Saturday 9 AM to 1 PM hours. But we're extending weekday hours — starting at 7 AM instead of 8 AM. Our techs are early risers.
+
+Sarah: Updated — Monday through Friday 7:00 AM to 5:00 PM, no regular Saturday hours.
+
+Karen: Services update. We're dropping solar panel electrical hookups for now. We had some licensing complications and we want to get that sorted before we offer it again. So remove solar from the list.
+
+Sarah: Removed.
+
+Karen: But add "whole-home surge protection installation" and "smart home wiring" — like home automation, structured cabling, that sort of thing. We're getting a lot of requests for those.
+
+Sarah: Added both.
+
+Karen: Emergency routing update. Bill and I decided that for after-hours emergencies, we want to use an on-call rotation instead of always trying me first. 
+
+Sarah: How does the rotation work?
+
+Karen: We hired two new techs — Miguel Santos, 602-555-0178, and Amy Chen, 602-555-0191. The rotation is weekly. The agent should try the on-call tech first. Since the AI can't know the rotation, just try calling them in this order: Miguel, then Amy, then me, then Bill. Whoever is on call will have their phone on.
+
+Sarah: So the new after-hours emergency order is: Miguel Santos, Amy Chen, Karen White, Bill White.
+
+Karen: Exactly. During business hours, still route to the office number first.
+
+Sarah: Any other changes?
+
+Karen: Yes. We want the agent to collect one more piece of info for every call — the age of the home. For electrical work, knowing if it's a 1960s home versus a 2020 build makes a huge difference in what we're dealing with. Just ask "Do you know approximately when your home was built?"
+
+Sarah: Smart. We'll add that to the information collection flow.
+
+Karen: The senior citizen discount — let's increase it from 15% to 20% off labor. Bill's mom convinced us. Also, we want to add a military/veteran discount of 10% off labor.
+
+Sarah: Both discounts updated.
+
+Karen: Last thing — new constraint. We do NOT work on any commercial properties over 3 stories tall. We don't have the equipment or insurance for high-rise commercial. If someone calls about a tall commercial building, politely decline and suggest they find a commercial electrical contractor.
+
+Sarah: Got it. Added to constraints.
+
+Karen: That's everything. Thanks, Sarah!
+
+Sarah: Great session, Karen. V2 will be ready shortly.

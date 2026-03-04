@@ -1,0 +1,74 @@
+{
+  "name": "Clara AI - Single Demo Call → v1 Agent",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [100, 300],
+      "webhookId": "clara-demo-ingest",
+      "parameters": {
+        "path": "clara/demo",
+        "httpMethod": "POST",
+        "responseMode": "lastNode"
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json.body;\nconst transcript = body.transcript || '';\nconst filename = body.filename || 'manual_input.txt';\n\n// Write transcript to temp file\nconst fs = require('fs');\nconst path = `/data/project/dataset/demo/${filename}`;\nfs.mkdirSync('/data/project/dataset/demo', { recursive: true });\nfs.writeFileSync(path, transcript);\n\nreturn [{ json: { path, filename, length: transcript.length } }];"
+      },
+      "id": "save-transcript",
+      "name": "Save Transcript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [340, 300]
+    },
+    {
+      "parameters": {
+        "command": "=python -m scripts.pipeline --demo {{ $json.path }}",
+        "cwd": "/data/project"
+      },
+      "id": "run-pipeline-a",
+      "name": "Run Pipeline A",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [580, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const stdout = $input.first().json.stdout;\n// Extract account ID from pipeline output\nconst match = stdout.match(/Pipeline A complete: ([\\w-]+)/);\nconst accountId = match ? match[1] : 'unknown';\n\n// Read generated files\nconst fs = require('fs');\nconst basePath = `/data/project/outputs/accounts/${accountId}/v1`;\nlet memo = {}, spec = {};\ntry { memo = JSON.parse(fs.readFileSync(`${basePath}/account_memo.json`, 'utf8')); } catch(e) {}\ntry { spec = JSON.parse(fs.readFileSync(`${basePath}/agent_spec.json`, 'utf8')); } catch(e) {}\n\nreturn [{ json: { account_id: accountId, memo, spec, status: 'v1_created' } }];"
+      },
+      "id": "collect-output",
+      "name": "Collect Outputs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [820, 300]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [{ "node": "Save Transcript", "type": "main", "index": 0 }]
+      ]
+    },
+    "Save Transcript": {
+      "main": [
+        [{ "node": "Run Pipeline A", "type": "main", "index": 0 }]
+      ]
+    },
+    "Run Pipeline A": {
+      "main": [
+        [{ "node": "Collect Outputs", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "clara-ai" },
+    { "name": "pipeline-a" }
+  ]
+}

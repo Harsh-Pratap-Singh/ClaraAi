@@ -1,0 +1,84 @@
+{
+  "name": "Clara AI - Demo to Agent Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "trigger-1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [100, 300]
+    },
+    {
+      "parameters": {
+        "command": "python -m scripts.pipeline --batch",
+        "cwd": "/data/project"
+      },
+      "id": "batch-run",
+      "name": "Run Batch Pipeline",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [340, 300]
+    },
+    {
+      "parameters": {
+        "command": "cat /data/project/outputs/batch_summary.json",
+        "cwd": "/data/project"
+      },
+      "id": "read-summary",
+      "name": "Read Batch Summary",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [580, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const summary = JSON.parse($input.first().json.stdout);\nconst accounts = summary.run_summary.accounts || [];\nreturn accounts.map(a => ({ json: a }));"
+      },
+      "id": "parse-accounts",
+      "name": "Parse Accounts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [820, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const account = $input.first().json;\nconst aid = account.account_id;\nconst statusEmoji = account.has_v2 ? '✅ v2' : (account.has_v1 ? '🔶 v1 only' : '❌');\nreturn [{ json: { ...account, status: statusEmoji, message: `${account.company_name} (${aid}): ${statusEmoji}` } }];"
+      },
+      "id": "format-output",
+      "name": "Format Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1060, 300]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [{ "node": "Run Batch Pipeline", "type": "main", "index": 0 }]
+      ]
+    },
+    "Run Batch Pipeline": {
+      "main": [
+        [{ "node": "Read Batch Summary", "type": "main", "index": 0 }]
+      ]
+    },
+    "Read Batch Summary": {
+      "main": [
+        [{ "node": "Parse Accounts", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Accounts": {
+      "main": [
+        [{ "node": "Format Status", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "clara-ai" },
+    { "name": "automation" }
+  ]
+}

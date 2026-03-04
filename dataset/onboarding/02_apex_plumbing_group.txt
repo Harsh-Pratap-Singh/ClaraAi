@@ -1,0 +1,43 @@
+[Onboarding Call Transcript]
+Date: 2024-12-04
+Participants: James (Clara Onboarding), Linda Park (Apex Plumbing Group)
+
+James: Hi Linda, let's review your preliminary agent and make any updates for your final configuration.
+
+Linda: Sounds great. I've reviewed the draft and mostly love it, but I have some changes.
+
+James: Fire away.
+
+Linda: First, we're extending our Friday hours. Instead of closing at 6 PM, we'll now be open until 8 PM on Fridays to accommodate people who can't call during regular hours. Also, we're adding Saturday hours — 9 AM to 3 PM.
+
+James: Got it. Friday hours extended to 8 PM, and adding Saturday 9 AM to 3 PM.
+
+Linda: Next, services. We're launching a new water filtration system installation service. We're partnering with a manufacturer and starting next month. So add "Water Filtration System Installation" to the list.
+
+James: Added.
+
+Linda: Also, I want to update the emergency routing. Carlos Rivera is still our primary, but we've hired an after-hours answering coordinator — her name is Denise Chang, 404-555-0215. Between 6 PM and 8 AM, Denise should be the first contact before Carlos.
+
+James: So after-hours emergency order becomes: 1) Denise Chang, 2) Carlos Rivera, 3) Linda Park?
+
+Linda: Yes. During business hours, Carlos is still first, then me.
+
+James: Any other changes?
+
+Linda: Yes — the first-time customer discount. We're increasing it from 10% to 15% for a holiday promotion that will run through February. After February it goes back to 10%. Can the agent mention 15% for now?
+
+James: We can update that. We'll note it's a promotional rate.
+
+Linda: Also, I realized I forgot to mention something in the demo call. We have a VIP customer list — about 20 property management companies that are our biggest accounts. If a caller mentions they're from one of those companies, they should be transferred directly to me, Linda, regardless of the time. The agent should ask "Are you calling on behalf of a property management company?" early in the call.
+
+James: That's a great addition. We'll add a VIP routing rule.
+
+Linda: One more — the non-emergency callback time during business hours should be 30 minutes, not 1 hour. We've improved our response time.
+
+James: Updated. Anything on integration constraints?
+
+Linda: Same as before — no booking in Housecall Pro. But add one more: if someone asks for a price estimate over the phone, the agent should NOT provide any numbers. Just say a technician will provide a quote on-site. No exceptions.
+
+James: Clear. Thanks, Linda. We'll push v2 of your agent this week.
+
+Linda: Perfect. Thank you, James!

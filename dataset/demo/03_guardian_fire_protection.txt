@@ -1,0 +1,47 @@
+[Demo Call Transcript]
+Date: 2024-11-20
+Participants: Rachel (Clara Sales), Tom Chen (Guardian Fire Protection)
+
+Rachel: Hi Tom, thanks for joining. What can you tell me about Guardian Fire Protection?
+
+Tom: Hi Rachel. Guardian Fire Protection — we're a fire protection and life safety company operating out of Houston, Texas. We've been around for 8 years. We do fire sprinkler installation, inspection, and maintenance for commercial buildings. We also handle fire alarm systems and fire extinguisher servicing.
+
+Rachel: That's a specialized niche. What made you reach out to Clara?
+
+Tom: We need 24/7 coverage. When a fire sprinkler system goes off accidentally or there's an alarm malfunction at 2 AM, the building manager needs to reach us immediately. Right now our answering service is terrible — they don't understand our business and they route calls wrong constantly.
+
+Rachel: Let's build something better then. Business hours?
+
+Tom: Monday through Friday, 7:30 AM to 4:30 PM Central Time. No weekend office hours, but we have an emergency line that should always be answered.
+
+Rachel: Address?
+
+Tom: 1100 Navigation Boulevard, Building C, Houston, TX 77003.
+
+Rachel: What services should we cover?
+
+Tom: Fire sprinkler system installation, fire sprinkler inspection and testing, fire sprinkler repair, fire alarm installation and monitoring, fire alarm repair, fire extinguisher inspection and recharging, and emergency fire suppression system services. We also do backflow preventer testing and kitchen hood suppression systems.
+
+Rachel: What's an emergency in your world?
+
+Tom: A fire sprinkler head that's gone off accidentally — water flowing in a building. A fire alarm system that's malfunctioning and won't stop. Any situation where the building's fire protection is compromised and the building can't be legally occupied. And of course, any active fire-related situation where our systems are involved.
+
+Rachel: Emergency routing protocol?
+
+Tom: Try our operations manager, Derek Johnson, at 713-555-0156. He monitors that phone 24/7. If Derek doesn't answer in 25 seconds, try me — Tom Chen — at 713-555-0178. Third option is our senior tech, Maria Gonzalez, at 713-555-0193. If nobody answers, take the message with the building address, the nature of the emergency, the caller's name, phone, and whether there's active water flow. Text all three of us. We guarantee a 10-minute response.
+
+Rachel: Non-emergency during business hours?
+
+Tom: Route to the office at 713-555-0100. Take a message if no answer — name, company name (since most are commercial clients), property address, and what service they need.
+
+Rachel: Integration constraints?
+
+Tom: Critical one: we use ServiceTrade for all our job management. Under NO circumstances should the AI create any sprinkler-related jobs in ServiceTrade. We've had bad experiences with automated job creation causing duplicate entries. Just collect info and we handle it.
+
+Rachel: Anything else?
+
+Tom: Since we work with commercial properties, the caller is often a property manager, not the building owner. Always ask who they represent and what building or property they're calling about. Also, all our inspection services require scheduling at least 48 hours in advance — the agent should mention that.
+
+Rachel: Understood. We'll have your draft agent ready soon. Thanks, Tom!
+
+Tom: Appreciate it, Rachel. Talk soon.

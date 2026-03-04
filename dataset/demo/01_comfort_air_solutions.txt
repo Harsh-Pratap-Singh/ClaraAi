@@ -1,0 +1,51 @@
+[Demo Call Transcript]
+Date: 2024-11-15
+Participants: Sarah (Clara Sales), Mike Thompson (Comfort Air Solutions)
+
+Sarah: Hi Mike, thanks for taking the time to meet with us today. I'm Sarah from Clara. Can you start by telling me a little about your company?
+
+Mike: Sure! We're Comfort Air Solutions. We're an HVAC company based out of Denver, Colorado. We do residential and commercial heating, cooling, and ventilation work. We've been around for about 12 years now.
+
+Sarah: Great. And what's your current setup for handling calls?
+
+Mike: Right now we've got a receptionist during office hours, but after hours everything goes to voicemail. We're losing a lot of emergency calls that way, especially in winter when furnaces go out.
+
+Sarah: That's exactly the kind of problem we solve. Can you walk me through your typical business hours?
+
+Mike: We're open Monday through Friday, 7:00 AM to 5:00 PM Mountain Time. Saturdays we do 8 AM to noon for emergency calls only.
+
+Sarah: And what's your office address?
+
+Mike: 4521 Elm Creek Drive, Denver, CO 80239.
+
+Sarah: Perfect. Now, what types of services do you want us to handle calls for?
+
+Mike: Mainly HVAC repair, installation, and maintenance. We also do indoor air quality assessments and duct cleaning. Oh, and we just started offering heat pump installations this year.
+
+Sarah: Got it. Let's talk about emergencies. What would you consider an emergency call?
+
+Mike: No heat in winter is the big one — if it's below 40 degrees outside and they have no heat, that's an emergency. Gas leaks, obviously. Carbon monoxide detector going off. No cooling if we're in a heat wave, especially if there are elderly people or young children. And any kind of flooding from an HVAC unit.
+
+Sarah: And who should we route emergency calls to?
+
+Mike: First try me directly — Mike Thompson, my cell is 303-555-0147. If I don't answer within 30 seconds, try our lead technician Dave Martinez at 303-555-0283. If neither of us answers, take a message and text both of us. We guarantee a callback within 15 minutes for emergencies.
+
+Sarah: What about non-emergency calls during business hours?
+
+Mike: Those should go to our front desk. The number is 303-555-0100. If the front desk doesn't pick up, take a message with the customer's name, phone number, address, and what kind of service they need. We'll call back within 2 hours during business hours.
+
+Sarah: And after-hours non-emergency calls?
+
+Mike: Just take a detailed message. We'll get back to them first thing next business day.
+
+Sarah: Any integration notes or constraints we should know about?
+
+Mike: Yeah, we use ServiceTitan for scheduling. Don't create any jobs in the system on our behalf — just collect the info and we'll do the scheduling ourselves. Also, we don't service anything outside a 30-mile radius of Denver.
+
+Sarah: This is really helpful, Mike. One more thing — anything else you'd want the AI agent to know?
+
+Mike: Just be friendly and reassuring. A lot of our customers are stressed when they call, especially for emergencies. And please confirm the callback number every time.
+
+Sarah: Absolutely. We'll get a preliminary agent set up for you and share it before your onboarding call. Thanks, Mike!
+
+Mike: Thanks, Sarah. Looking forward to it.

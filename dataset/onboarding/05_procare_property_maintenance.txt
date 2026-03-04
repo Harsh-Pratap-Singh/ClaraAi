@@ -1,0 +1,56 @@
+[Onboarding Call Transcript]
+Date: 2024-12-09
+Participants: James (Clara Onboarding), Robert Davis (ProCare Property Maintenance)
+
+James: Hi Robert, let's finalize your agent with any onboarding updates. How's the draft?
+
+Robert: Hey James. It's pretty comprehensive. I've got a bunch of updates though — we're a complex operation.
+
+James: No problem. Let's go through them.
+
+Robert: First, hours. We're going 24/7 for our call coverage. Even though our office is Monday through Saturday, we want the AI agent to answer calls 24 hours a day, 7 days a week. After office hours, it's pure triage and emergency routing. We had too many missed calls on Sunday and overnight.
+
+James: So the agent is always on. Office staff hours remain the same for transfers?
+
+Robert: Right. Office transfers only during Monday-Friday 6 AM to 8 PM, Saturday 8 AM to 5 PM. All other times it's triage mode.
+
+James: Got it.
+
+Robert: Services update. We've added two new services: "Elevator Repair" — not just coordination anymore, we hired two elevator techs. And "Fire Safety Inspections" for commercial properties.
+
+James: Updated.
+
+Robert: Emergency definitions — add "elevator malfunction" as a broader term. It doesn't have to be stuck with passengers. If an elevator is making strange noises, displaying errors, or the doors won't close properly, that's an emergency now too because of liability. Also add "roof leak during active rain" as an emergency.
+
+James: Added both.
+
+Robert: Big routing change. We're restructuring our dispatch. We now have three dispatch teams:
+1. Commercial HVAC & Mechanical — managed by Tony Ricci (same number, 312-555-0167)
+2. Residential Maintenance — managed by Anita Patel (same number, 312-555-0189)  
+3. Emergency & Elevator — NEW team managed by Frank Morrison, 312-555-0234
+
+The agent needs to triage the call type and route to the correct team. For emergencies that don't clearly fit a category, go to Frank first.
+
+James: Three-way routing based on call type. Got it.
+
+Robert: If the specific team manager doesn't answer, escalate to me (Robert, 312-555-0145), then try the other two team managers. We don't want any call falling through the cracks.
+
+James: Cross-team escalation. Smart.
+
+Robert: Integration constraints update. We migrated from Building Engines to Buildium last month. Same rule — no work orders. But new rule: if a tenant calls about a maintenance issue in one of our residential properties, the agent should ask for their unit number AND their tenant ID if they have it. We can look them up faster that way.
+
+James: Added tenant ID collection.
+
+Robert: Also, the rule about not handling rent/lease complaints? Expand that. Property management complaints, noise complaints between tenants, and any requests about lease renewals should ALL be routed to 312-555-0200. The AI should not attempt to resolve any of those.
+
+James: Expanded the exclusion list for 312-555-0200 routing.
+
+Robert: One more — we're launching a tenant portal online. If someone has a non-emergency maintenance request, the agent should offer them the option to submit it at portal.procarepm.com instead of leaving a voicemail. Tell them they'll get faster tracking that way.
+
+James: Great addition. Anything else?
+
+Robert: That's it. This is a lot of changes but they're all important. Our operation has grown a lot since the demo call.
+
+James: Absolutely. V2 will handle all of this. Thanks, Robert!
+
+Robert: Thanks, James. Good working with you.

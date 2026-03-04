@@ -1,0 +1,74 @@
+{
+  "name": "Clara AI - Onboarding → v2 Agent Update",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "webhook-onboard",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [100, 300],
+      "webhookId": "clara-onboard-ingest",
+      "parameters": {
+        "path": "clara/onboarding",
+        "httpMethod": "POST",
+        "responseMode": "lastNode"
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json.body;\nconst transcript = body.transcript || '';\nconst filename = body.filename || 'manual_onboarding.txt';\nconst accountId = body.account_id || null;\n\nconst fs = require('fs');\nconst path = `/data/project/dataset/onboarding/${filename}`;\nfs.mkdirSync('/data/project/dataset/onboarding', { recursive: true });\nfs.writeFileSync(path, transcript);\n\nreturn [{ json: { path, filename, account_id: accountId } }];"
+      },
+      "id": "save-onboarding",
+      "name": "Save Onboarding Transcript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [340, 300]
+    },
+    {
+      "parameters": {
+        "command": "=python -m scripts.pipeline --onboarding {{ $json.path }}{{ $json.account_id ? ' --account ' + $json.account_id : '' }}",
+        "cwd": "/data/project"
+      },
+      "id": "run-pipeline-b",
+      "name": "Run Pipeline B",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [580, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const stdout = $input.first().json.stdout;\nconst match = stdout.match(/Pipeline B complete: ([\\w-]+)/);\nconst accountId = match ? match[1] : 'unknown';\n\nconst fs = require('fs');\nconst basePath = `/data/project/outputs/accounts/${accountId}/v2`;\nlet memo = {}, spec = {}, changelog = '', changes = {};\ntry { memo = JSON.parse(fs.readFileSync(`${basePath}/account_memo.json`, 'utf8')); } catch(e) {}\ntry { spec = JSON.parse(fs.readFileSync(`${basePath}/agent_spec.json`, 'utf8')); } catch(e) {}\ntry { changelog = fs.readFileSync(`${basePath}/changelog.md`, 'utf8'); } catch(e) {}\ntry { changes = JSON.parse(fs.readFileSync(`${basePath}/changes.json`, 'utf8')); } catch(e) {}\n\nreturn [{ json: { account_id: accountId, memo, spec, changelog, changes_summary: changes.summary || {}, status: 'v2_updated' } }];"
+      },
+      "id": "collect-v2-output",
+      "name": "Collect v2 Outputs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [820, 300]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [{ "node": "Save Onboarding Transcript", "type": "main", "index": 0 }]
+      ]
+    },
+    "Save Onboarding Transcript": {
+      "main": [
+        [{ "node": "Run Pipeline B", "type": "main", "index": 0 }]
+      ]
+    },
+    "Run Pipeline B": {
+      "main": [
+        [{ "node": "Collect v2 Outputs", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "clara-ai" },
+    { "name": "pipeline-b" }
+  ]
+}

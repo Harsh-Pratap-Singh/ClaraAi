@@ -1,0 +1,47 @@
+[Demo Call Transcript]
+Date: 2024-11-18
+Participants: James (Clara Sales), Linda Park (Apex Plumbing Group)
+
+James: Hi Linda, welcome to the demo. Tell me about Apex Plumbing Group.
+
+Linda: Thanks James. We're Apex Plumbing Group, a full-service plumbing company in Atlanta, Georgia. We handle both residential and commercial plumbing — everything from leaky faucets to full commercial pipe installations. We've been in business 20 years this March.
+
+James: Congrats on the milestone. What's driving you to look at an AI answering solution?
+
+Linda: We get about 200 calls a day and our two receptionists can't keep up. We're missing calls during lunch, and after hours we lose probably 30% of potential emergency jobs to competitors who pick up the phone.
+
+James: Let's get into the details then. What are your business hours?
+
+Linda: Monday through Friday, 8:00 AM to 6:00 PM Eastern Time. We don't have Saturday hours, but we do have an on-call technician 24/7 for emergencies.
+
+James: Office address?
+
+Linda: 782 Peachtree Industrial Boulevard, Suite 200, Atlanta, GA 30341.
+
+James: What services should the agent handle?
+
+Linda: Residential plumbing repair, commercial plumbing, drain cleaning, sewer line repair, water heater installation and repair, gas line work, and bathroom remodeling consultations. We also do backflow testing and certification.
+
+James: What constitutes an emergency for your company?
+
+Linda: Burst pipes, active flooding, sewage backup, gas leaks, no hot water in winter, and slab leaks. Anything that's causing active water damage or is a safety hazard.
+
+James: And the emergency routing?
+
+Linda: First, try our dispatch manager, Carlos Rivera, at 404-555-0192. He's available 24/7. If Carlos doesn't pick up in 20 seconds, try our owner, Linda Park — that's me — at 404-555-0201. If neither answers, take the customer's information including their address and a description of the problem, and send a text blast to both numbers. Promise a callback within 10 minutes.
+
+James: For non-emergencies during business hours?
+
+Linda: Transfer to our main office line at 404-555-0100. If they don't answer after 3 rings, take a message. We aim to return calls within 1 hour during business hours.
+
+James: Any systems or constraints?
+
+Linda: We use Housecall Pro for dispatching. The AI should NOT attempt to book any appointments — just collect info and we'll handle scheduling. Also, we don't do septic tank work, so if someone asks about septic, let them know we don't offer that but recommend they call a septic specialist.
+
+James: Anything else for the agent?
+
+Linda: We offer a 10% discount for first-time customers. The agent can mention that if someone seems hesitant. But don't promise specific pricing — just say a technician will provide a quote on-site.
+
+James: This is great, Linda. We'll build out your preliminary agent and have it ready for your onboarding session.
+
+Linda: Perfect, thank you!

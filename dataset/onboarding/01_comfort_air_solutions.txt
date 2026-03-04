@@ -1,0 +1,47 @@
+[Onboarding Call Transcript]
+Date: 2024-12-02
+Participants: Sarah (Clara Onboarding), Mike Thompson (Comfort Air Solutions)
+
+Sarah: Hi Mike, welcome to your onboarding session. We've put together a preliminary agent based on our demo call. Let's review it and make any updates. Have you had a chance to look at the draft?
+
+Mike: I did, and it looks really good overall. I have a few updates, though.
+
+Sarah: Perfect. Let's go through them.
+
+Mike: First, our Saturday hours are changing. Starting January 1st, we'll be open Saturday 8 AM to 2 PM instead of just noon. We're expanding our weekend availability because demand is so high in winter.
+
+Sarah: Got it — Saturday hours updated to 8 AM to 2 PM.
+
+Mike: Second, I want to add a new service. We just partnered with a company that does smart thermostat installation — Nest, Ecobee, that kind of thing. So add "Smart Thermostat Installation" to our service list.
+
+Sarah: Done. Anything else on services?
+
+Mike: Yeah, we're discontinuing our indoor air quality assessments. We found it wasn't generating enough revenue. So remove that.
+
+Sarah: Noted. Any changes to emergency definitions?
+
+Mike: Actually yes. I want to add "refrigerant leak" as an emergency trigger. We had an incident last week where a customer called about a strange chemical smell and it turned out to be a freon leak. That's dangerous and should be treated as urgent.
+
+Sarah: Absolutely. Added "refrigerant leak" to emergency triggers.
+
+Mike: Also, for the emergency routing — Dave Martinez left the company. Our new lead tech is Jason Park, and his number is 303-555-0312. So the secondary contact should be updated.
+
+Sarah: Updated. Jason Park, 303-555-0312, replacing Dave Martinez.
+
+Mike: One more thing on routing. We hired a night dispatcher — her name is Patricia Holmes, phone 303-555-0298. For after-hours emergencies between 8 PM and 6 AM, try Patricia first before trying me. She's dedicated to overnight coverage.
+
+Sarah: So the new after-hours emergency order is: 1) Patricia Holmes, 2) Mike Thompson, 3) Jason Park?
+
+Mike: Exactly. During business hours it stays the same — front desk first, then me.
+
+Sarah: Any changes to integration constraints?
+
+Mike: Yeah, one addition. We switched from ServiceTitan to Housecall Pro last month. So the constraint is the same — don't create jobs — but the system name should be updated to Housecall Pro.
+
+Sarah: Updated. Anything else?
+
+Mike: The callback guarantee for emergencies — let's tighten it to 10 minutes instead of 15. We've gotten faster with the night dispatcher.
+
+Sarah: Emergency callback guarantee updated to 10 minutes. Great changes, Mike. We'll update your agent to v2 and have it ready this week.
+
+Mike: Awesome. Thanks, Sarah!

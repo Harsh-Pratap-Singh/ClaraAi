@@ -1,0 +1,47 @@
+[Demo Call Transcript]
+Date: 2024-11-22
+Participants: Sarah (Clara Sales), Karen White (Reliable Electric Services)
+
+Sarah: Hi Karen, thanks for meeting today. Tell me about Reliable Electric.
+
+Karen: Hi Sarah! Reliable Electric Services is a licensed electrical contractor based in Phoenix, Arizona. We do residential and commercial electrical work — panel upgrades, wiring, lighting, EV charger installations, and we're getting into solar panel electrical connections too. Been in business for 15 years.
+
+Sarah: Very cool, especially the EV and solar side. What's the current situation with your phone coverage?
+
+Karen: It's honestly a mess. My husband and I run the business, and we're often on job sites. Our daughter helps answer phones during the day, but she's going off to college next fall. We need a reliable system that works whether we're available or not.
+
+Sarah: Totally understand. Let's get your details. Business hours?
+
+Karen: Monday through Friday, 8:00 AM to 5:00 PM Arizona Time — which is the same as Mountain Time but we don't observe daylight saving. Saturday 9 AM to 1 PM by appointment only.
+
+Sarah: Office or mailing address?
+
+Karen: 3087 West Camelback Road, Suite 14, Phoenix, AZ 85017.
+
+Sarah: Services to cover?
+
+Karen: Residential electrical repair, commercial electrical services, panel upgrades, whole-house rewiring, lighting installation, ceiling fan installation, EV charger installation, generator installation, and solar panel electrical hookups. We also do electrical safety inspections.
+
+Sarah: What's an emergency?
+
+Karen: Power outage that's isolated to the house — meaning it's not the utility company's issue. Electrical fire or burning smell from outlets or panels. Sparking wires, exposed live wires, anything involving downed power lines on their property. And any situation where someone's lost power to critical medical equipment at home.
+
+Sarah: Emergency routing?
+
+Karen: Try me first — Karen White, 602-555-0134. I keep my phone on 24/7. If I don't answer, try my husband Bill White at 602-555-0156. If we both miss it, take a message and text us both. For electrical emergencies, also tell the caller to call 911 if there's an active fire or dangerous situation. We can't always be there in minutes for electrical emergencies, so safety first.
+
+Sarah: Smart. During business hours, non-emergency?
+
+Karen: Transfer to our office line 602-555-0100. If no answer after 4 rings, take a message. We return calls within 90 minutes during business hours.
+
+Sarah: Any constraints or integrations?
+
+Karen: We use Jobber for scheduling. Don't book anything — just collect info. Also, we are NOT licensed to do plumbing or HVAC work. If someone calls about plumbing or HVAC, politely let them know we're electrical only and suggest they find a specialist for that.
+
+Sarah: Anything else?
+
+Karen: We offer free estimates for any job over $500, and we have a senior citizen discount — 15% off labor for customers over 65. The agent can mention those. Also, we're fully licensed, bonded, and insured in the state of Arizona — if anyone asks about that.
+
+Sarah: Wonderful. We'll build your agent and have it ready. Thanks, Karen!
+
+Karen: Thank you, Sarah!
